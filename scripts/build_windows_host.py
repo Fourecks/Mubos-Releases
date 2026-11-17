@@ -82,11 +82,11 @@ def build():
     (PUBLIC / "_headers").write_text(
         "/*/*.json\n  Content-Type: application/json\n"
         "/beta/*.appinstaller\n  Content-Type: application/appinstaller\n  Cache-Control: no-store\n"
-        "/beta/*.msix\n  Content-Type: application/msix\n  Cache-Control: public, max-age=300\n"
-        "/beta/*.cer\n  Content-Type: application/pkix-cert\n  Cache-Control: public, max-age=300\n"
+        "/beta/*.msix\n  Content-Type: application/msix\n  Cache-Control: no-store\n"
+        "/beta/*.cer\n  Content-Type: application/pkix-cert\n  Cache-Control: no-store\n"
         "/stable/*.appinstaller\n  Content-Type: application/appinstaller\n  Cache-Control: no-store\n"
-        "/stable/*.msix\n  Content-Type: application/msix\n  Cache-Control: public, max-age=300\n"
-        "/stable/*.cer\n  Content-Type: application/pkix-cert\n  Cache-Control: public, max-age=300\n",
+        "/stable/*.msix\n  Content-Type: application/msix\n  Cache-Control: no-store\n"
+        "/stable/*.cer\n  Content-Type: application/pkix-cert\n  Cache-Control: no-store\n",
         encoding="utf-8",
     )
 
