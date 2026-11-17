@@ -6,7 +6,7 @@
   "version": "1.0.0",
   "build": 2,
   "download_url": "https://mubos-downloads.netlify.app/beta/Mubos.msix",
-  "update_url": "https://github.com/Fourecks/Mubos-Releases/releases/download/v1.0.0-b2-beta/Mubos.appinstaller",
+  "update_url": "https://mubos-downloads.netlify.app/beta/Mubos.appinstaller",
   "installer_url": "https://mubos-downloads.netlify.app/beta/Mubos.appinstaller",
   "sha256": "8c236ff3b5d7d5c1ed488c1c90400188208e688ff08cc9a98ccf21a7d0f355a2",
   "size": 26252691,
