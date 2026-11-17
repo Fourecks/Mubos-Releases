@@ -1,0 +1,7 @@
+[build]
+  command = "python3 scripts/build_windows_host.py"
+  publish = "public"
+
+[build.environment]
+  PYTHON_VERSION = "3.12"
+  MUBOS_WINDOWS_DOWNLOAD_ORIGIN = "https://mubos-downloads.netlify.app"

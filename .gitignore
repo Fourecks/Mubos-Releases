@@ -1,0 +1,4 @@
+/.netlify/
+/public/
+__pycache__/
+*.py[cod]

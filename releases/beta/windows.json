@@ -10,5 +10,6 @@
   "installer_url": "https://mubos-downloads.netlify.app/beta/Mubos.appinstaller",
   "sha256": "1f21b15749fea44a22af832db6175d378b01231b27a2486a827f46d306f3a13c",
   "size": 26255798,
-  "notes": "Beta inicial de Mubos para Windows. Incluye paquete MSIX, instalación con App Installer y canal de actualización beta. Requiere confiar en el certificado de desarrollo para instalar."
+  "notes": "Beta inicial de Mubos para Windows. Incluye paquete MSIX, instalación con App Installer y canal de actualización beta. Requiere confiar en el certificado de desarrollo para instalar.",
+  "source_url": "https://github.com/Fourecks/Mubos-Releases/releases/download/v1.0.0-b1-beta/Mubos.msix"
 }
